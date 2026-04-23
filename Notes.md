@@ -151,6 +151,56 @@ Nmap is a network scanning tool used to discover hosts, open ports, running serv
 
 ## 7. Web Application Basics
 
+## 7. Wireshark Basics
+
+Wireshark is a packet analysis tool used to capture and inspect network traffic in real time or from saved capture files.
+
+### What Wireshark is used for
+
+- analyze network packets
+- inspect protocols and conversations
+- troubleshoot connectivity issues
+- identify suspicious traffic patterns
+- review DNS, HTTP, TCP, and TLS activity
+
+### Important concepts
+
+- packet: a small unit of network data
+- capture: recorded network traffic
+- interface: the network adapter used for capturing traffic
+- protocol: the communication standard used in traffic
+- stream: a sequence of related packets in a conversation
+- filter: a rule used to narrow visible traffic
+
+### Common protocol examples
+
+- ARP: maps IP addresses to MAC addresses
+- DNS: resolves domain names to IP addresses
+- TCP: reliable connection-oriented traffic
+- UDP: connectionless traffic
+- HTTP: web requests and responses
+- TLS: encrypted web traffic
+- ICMP: ping and network diagnostic traffic
+
+### Useful Wireshark skills
+
+- identify source and destination IP addresses
+- follow TCP streams
+- inspect HTTP requests and responses
+- check DNS queries and answers
+- recognize TCP handshakes and retransmissions
+- spot unusual traffic volume or repeated failed connections
+
+### Good practice
+
+- capture only what is in scope
+- label captures with time and purpose
+- filter traffic before drawing conclusions
+- save evidence files carefully
+- avoid capturing sensitive traffic without authorization
+
+## 8. Web Application Basics
+
 ### Common issues
 
 - SQL injection
@@ -169,7 +219,7 @@ Nmap is a network scanning tool used to discover hosts, open ports, running serv
 - review authentication and session handling
 - verify access controls
 
-## 8. Burp Suite Basics
+## 9. Burp Suite Basics
 
 Burp Suite is a web application security testing tool commonly used to inspect, intercept, and modify HTTP/HTTPS traffic during authorized testing.
 
@@ -217,7 +267,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - save clean evidence for reports
 - avoid noisy automated testing unless allowed
 
-## 9. Authentication and Password Security
+## 10. Authentication and Password Security
 
 ### Good password practices
 
@@ -232,7 +282,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - encryption is reversible with a key
 - salting makes password hashes harder to crack at scale
 
-## 10. Linux Basics
+## 11. Linux Basics
 
 ### Useful commands
 
@@ -246,7 +296,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - `ps aux` - list processes
 - `netstat -tulnp` or `ss -tulnp` - list listening ports
 
-## 11. Windows Basics
+## 12. Windows Basics
 
 ### Useful commands
 
@@ -259,7 +309,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - `Get-Process`
 - `Get-Service`
 
-## 12. Reporting
+## 13. Reporting
 
 The report is one of the most important deliverables in ethical hacking.
 
@@ -282,7 +332,7 @@ The report is one of the most important deliverables in ethical hacking.
 - Evidence
 - Recommendation
 
-## 13. Defensive Mindset
+## 14. Defensive Mindset
 
 Security work is not only about finding issues. It also requires reducing risk.
 
@@ -296,6 +346,6 @@ Security work is not only about finding issues. It also requires reducing risk.
 - back up data
 - enforce MFA
 
-## 14. Legal and Ethical Reminder
+## 15. Legal and Ethical Reminder
 
 Only test systems you are explicitly authorized to assess. Authorization should be written and should clearly define scope, timing, and allowed techniques.

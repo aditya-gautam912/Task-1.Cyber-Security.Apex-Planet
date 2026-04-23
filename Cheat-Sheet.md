@@ -82,6 +82,37 @@ nmap -A 192.168.1.10
 - `filtered`
 - `unfiltered`
 
+## Wireshark Quick Notes
+
+- capture packets from a network interface
+- inspect protocols, IPs, ports, and conversations
+- use display filters to reduce noise
+- follow streams to inspect related traffic
+- useful for troubleshooting and protocol analysis
+
+## Common Wireshark Display Filters
+
+```text
+ip.addr == 192.168.1.10
+tcp
+udp
+dns
+http
+tls
+icmp
+tcp.port == 80
+tcp.port == 443
+```
+
+## Useful Wireshark Things to Check
+
+- source and destination IPs
+- protocol in use
+- DNS queries and responses
+- TCP handshakes
+- retransmissions and resets
+- HTTP requests and response codes
+
 ## Web Testing Checklist
 
 - Inspect requests and responses
