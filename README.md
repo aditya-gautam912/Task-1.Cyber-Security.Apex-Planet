@@ -52,6 +52,24 @@ Keep the repository clean and simple:
 
 This repository also includes lab and study screenshots captured during practice and note preparation.
 
+Preview:
+
+### Virtual Lab Setup
+
+![Virtual Lab Setup](virtualbox-kali-and-metasploitable-vms.png)
+
+### Nmap Scan Results
+
+![Nmap Scan Results](nmap-open-port-scan-results.png)
+
+### Wireshark ICMP Traffic
+
+![Wireshark ICMP Traffic](wireshark-icmp-traffic-capture.png)
+
+### OpenSSL RSA Key Generation
+
+![OpenSSL RSA Key Generation](openssl-rsa-key-generation.png)
+
 Current screenshot files:
 
 - `virtualbox-kali-and-metasploitable-vms.png`
