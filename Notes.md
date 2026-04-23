@@ -124,7 +124,55 @@ Reconnaissance is information gathering about a target.
 - review authentication and session handling
 - verify access controls
 
-## 7. Authentication and Password Security
+## 7. Burp Suite Basics
+
+Burp Suite is a web application security testing tool commonly used to inspect, intercept, and modify HTTP/HTTPS traffic during authorized testing.
+
+### Main Burp Suite components
+
+- Proxy: intercepts browser requests and responses
+- Target: helps map the application structure
+- Repeater: re-sends modified requests manually
+- Intruder: automates repeated request testing
+- Decoder: converts data between formats
+- Comparer: compares two requests or responses
+
+### Common use cases
+
+- inspect request headers, parameters, cookies, and responses
+- capture login flows and session tokens
+- modify requests to test input validation
+- replay requests with changed values
+- identify hidden parameters and endpoints
+- test authorization behavior by changing IDs, roles, or tokens
+
+### Safe beginner workflow
+
+1. Configure the browser to use Burp Proxy.
+2. Visit the target application in scope.
+3. Intercept and observe the request.
+4. Send interesting requests to Repeater.
+5. Modify one input at a time and review the response.
+6. Record useful findings and screenshots.
+
+### Concepts to understand
+
+- request methods: `GET`, `POST`, `PUT`, `DELETE`
+- headers: metadata such as cookies, content type, and authorization
+- query parameters: values passed in the URL
+- body parameters: values sent in the request body
+- cookies and sessions: identify logged-in state
+- status codes: `200`, `302`, `403`, `404`, `500`
+
+### Good practice
+
+- test only in authorized environments
+- keep scope limited to approved targets
+- change one variable at a time
+- save clean evidence for reports
+- avoid noisy automated testing unless allowed
+
+## 8. Authentication and Password Security
 
 ### Good password practices
 
@@ -139,7 +187,7 @@ Reconnaissance is information gathering about a target.
 - encryption is reversible with a key
 - salting makes password hashes harder to crack at scale
 
-## 8. Linux Basics
+## 9. Linux Basics
 
 ### Useful commands
 
@@ -153,7 +201,7 @@ Reconnaissance is information gathering about a target.
 - `ps aux` - list processes
 - `netstat -tulnp` or `ss -tulnp` - list listening ports
 
-## 9. Windows Basics
+## 10. Windows Basics
 
 ### Useful commands
 
@@ -166,7 +214,7 @@ Reconnaissance is information gathering about a target.
 - `Get-Process`
 - `Get-Service`
 
-## 10. Reporting
+## 11. Reporting
 
 The report is one of the most important deliverables in ethical hacking.
 
@@ -189,7 +237,7 @@ The report is one of the most important deliverables in ethical hacking.
 - Evidence
 - Recommendation
 
-## 11. Defensive Mindset
+## 12. Defensive Mindset
 
 Security work is not only about finding issues. It also requires reducing risk.
 
@@ -203,6 +251,6 @@ Security work is not only about finding issues. It also requires reducing risk.
 - back up data
 - enforce MFA
 
-## 12. Legal and Ethical Reminder
+## 13. Legal and Ethical Reminder
 
 Only test systems you are explicitly authorized to assess. Authorization should be written and should clearly define scope, timing, and allowed techniques.

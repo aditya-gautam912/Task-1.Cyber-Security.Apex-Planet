@@ -65,6 +65,44 @@ Get-Service
 - Look for exposed admin endpoints
 - Record proof clearly
 
+## Burp Suite Quick Notes
+
+- Proxy: intercept browser traffic
+- Repeater: resend and modify one request at a time
+- Intruder: automate repeated input testing
+- Decoder: encode/decode data
+- Comparer: compare responses and requests
+- Target: map discovered endpoints
+
+## Burp Suite Workflow
+
+1. Turn on Burp Proxy.
+2. Configure browser proxy settings.
+3. Capture request.
+4. Send request to Repeater.
+5. Modify parameter, cookie, header, or body value.
+6. Compare response changes.
+7. Save screenshots and notes.
+
+## Common HTTP Status Codes
+
+- `200` - success
+- `301/302` - redirect
+- `401` - unauthenticated
+- `403` - forbidden
+- `404` - not found
+- `500` - server error
+
+## Useful Things to Inspect in Burp
+
+- query parameters
+- form fields
+- cookies
+- authorization headers
+- hidden fields
+- file upload requests
+- JSON request bodies
+
 ## Password and Auth Notes
 
 - Prefer long passphrases over short complex passwords
