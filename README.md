@@ -54,16 +54,16 @@ This repository also includes lab and study screenshots captured during practice
 
 Current screenshot files:
 
-- `Screenshot 2026-04-12 230324.png`
-- `Screenshot 2026-04-12 230509.png`
-- `Screenshot 2026-04-12 231603.png`
-- `Screenshot 2026-04-12 232111.png`
-- `Screenshot 2026-04-12 232241.png`
-- `Screenshot 2026-04-13 184357.png`
-- `Screenshot 2026-04-15 101308.png`
-- `Screenshot 2026-04-22 190418.png`
-- `Screenshot 2026-04-22 191657.png`
-- `Screenshot 2026-04-23 010213.png`
+- `virtualbox-kali-and-metasploitable-vms.png`
+- `kali-linux-desktop-in-virtualbox.png`
+- `kali-ip-address-details.png`
+- `metasploitable-login-console.png`
+- `metasploitable-network-ifconfig.png`
+- `nmap-open-port-scan-results.png`
+- `wireshark-icmp-traffic-capture.png`
+- `metasploitable-http-banner-with-netcat.png`
+- `kali-basic-linux-file-commands.png`
+- `openssl-rsa-key-generation.png`
 
 ## Repository Status
 
