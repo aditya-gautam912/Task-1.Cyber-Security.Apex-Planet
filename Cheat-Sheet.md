@@ -55,6 +55,33 @@ Get-Service
 6. Enumerate exposed services.
 7. Document findings.
 
+## Nmap Quick Notes
+
+- host discovery: find live systems
+- port scan: find open ports
+- service detection: identify running services
+- version detection: estimate service versions
+- OS detection: guess operating system
+- NSE: scripts for additional checks
+
+## Common Nmap Commands
+
+```bash
+nmap 192.168.1.10
+nmap -sV 192.168.1.10
+nmap -O 192.168.1.10
+nmap -sS 192.168.1.10
+nmap -p 1-1000 192.168.1.10
+nmap -A 192.168.1.10
+```
+
+## Nmap Port States
+
+- `open`
+- `closed`
+- `filtered`
+- `unfiltered`
+
 ## Web Testing Checklist
 
 - Inspect requests and responses

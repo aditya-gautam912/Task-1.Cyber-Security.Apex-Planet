@@ -104,7 +104,52 @@ Reconnaissance is information gathering about a target.
 - banner information
 - exposed admin panels
 
-## 6. Web Application Basics
+## 6. Nmap Basics
+
+Nmap is a network scanning tool used to discover hosts, open ports, running services, and operating system clues in authorized environments.
+
+### What Nmap is used for
+
+- host discovery
+- port scanning
+- service version detection
+- operating system detection
+- basic network inventory
+- security assessment preparation
+
+### Important concepts
+
+- host discovery: checks whether a system is online
+- port scanning: identifies open, closed, or filtered ports
+- service detection: identifies the application running on a port
+- version detection: estimates service version details
+- OS detection: guesses the target operating system
+- NSE: Nmap Scripting Engine used for additional checks
+
+### Common port states
+
+- open: a service is accepting connections
+- closed: the port is reachable but no service is listening
+- filtered: a firewall or filter is blocking visibility
+- unfiltered: reachable, but exact state is unclear
+
+### Scan types to know conceptually
+
+- TCP connect scan: full TCP connection attempt
+- SYN scan: half-open style scan often used for speed
+- UDP scan: checks UDP services, usually slower
+- version scan: identifies service versions
+- OS detection scan: guesses the operating system
+
+### Good practice
+
+- verify scope before scanning
+- start with basic discovery before deep scanning
+- avoid aggressive scanning unless authorized
+- document IPs, ports, and detected services clearly
+- use results to guide enumeration, not as final proof alone
+
+## 7. Web Application Basics
 
 ### Common issues
 
@@ -124,7 +169,7 @@ Reconnaissance is information gathering about a target.
 - review authentication and session handling
 - verify access controls
 
-## 7. Burp Suite Basics
+## 8. Burp Suite Basics
 
 Burp Suite is a web application security testing tool commonly used to inspect, intercept, and modify HTTP/HTTPS traffic during authorized testing.
 
@@ -172,7 +217,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - save clean evidence for reports
 - avoid noisy automated testing unless allowed
 
-## 8. Authentication and Password Security
+## 9. Authentication and Password Security
 
 ### Good password practices
 
@@ -187,7 +232,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - encryption is reversible with a key
 - salting makes password hashes harder to crack at scale
 
-## 9. Linux Basics
+## 10. Linux Basics
 
 ### Useful commands
 
@@ -201,7 +246,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - `ps aux` - list processes
 - `netstat -tulnp` or `ss -tulnp` - list listening ports
 
-## 10. Windows Basics
+## 11. Windows Basics
 
 ### Useful commands
 
@@ -214,7 +259,7 @@ Burp Suite is a web application security testing tool commonly used to inspect, 
 - `Get-Process`
 - `Get-Service`
 
-## 11. Reporting
+## 12. Reporting
 
 The report is one of the most important deliverables in ethical hacking.
 
@@ -237,7 +282,7 @@ The report is one of the most important deliverables in ethical hacking.
 - Evidence
 - Recommendation
 
-## 12. Defensive Mindset
+## 13. Defensive Mindset
 
 Security work is not only about finding issues. It also requires reducing risk.
 
@@ -251,6 +296,6 @@ Security work is not only about finding issues. It also requires reducing risk.
 - back up data
 - enforce MFA
 
-## 13. Legal and Ethical Reminder
+## 14. Legal and Ethical Reminder
 
 Only test systems you are explicitly authorized to assess. Authorization should be written and should clearly define scope, timing, and allowed techniques.
