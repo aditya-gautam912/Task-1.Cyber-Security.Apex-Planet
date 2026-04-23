@@ -48,6 +48,27 @@ Keep the repository clean and simple:
 - store command output as text where possible
 - keep sensitive data out of version control
 
+## Screenshots
+
+This repository also includes lab and study screenshots captured during practice and note preparation.
+
+Current screenshot files:
+
+- `Screenshot 2026-04-12 230324.png`
+- `Screenshot 2026-04-12 230509.png`
+- `Screenshot 2026-04-12 231603.png`
+- `Screenshot 2026-04-12 232111.png`
+- `Screenshot 2026-04-12 232241.png`
+- `Screenshot 2026-04-13 184357.png`
+- `Screenshot 2026-04-15 101308.png`
+- `Screenshot 2026-04-22 190418.png`
+- `Screenshot 2026-04-22 191657.png`
+- `Screenshot 2026-04-23 010213.png`
+
+## Repository Status
+
+This repository is being updated progressively with notes, cheat sheets, and screenshot-based study records from cyber security practice work.
+
 ## License
 
 Add a license before public release if needed.
